@@ -1,0 +1,153 @@
+html,
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    max-width: 1920px;
+}
+
+.topBar {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: relative;
+    width: 100%;
+}
+
+.logo {
+    margin: 0px 0px 0px 10px;
+    float: left;
+    height: 50px;
+}
+
+.menu {
+    float: right;
+    text-decoration: underline;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.menu table{
+    color: #6D6763;
+    text-decoration: underline;
+    align-content: center;
+    font-size: 1.5em;
+    margin-top: 0.3em;
+}
+
+.menu td{
+    padding-right: 2em;
+}
+
+.banner {
+    background-image: url("src/pic5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    width: 80%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.mission {
+    background-color: black;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.gallery {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.firstline {
+    margin-left: 5em;
+
+}
+
+.secondline {
+    margin-left: 12em;
+}
+
+.item{
+    float: left;
+    margin: 0 auto;
+}
+
+.item img{
+    width: 300px;
+    height: 200px;
+    margin: 0px 10px 0px 10px;
+}
+
+.item h4 {
+    margin-top: 10px;
+}
+
+.location {
+    width: 80%;
+    height: 500px;
+    background-image: url("src/pic4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.box {
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    display: inline-block;
+    margin-top: 15px;
+    opacity: 1;
+}
+
+.footer {
+    height: 200px;
+    text-align: center;
+    color: #6D6763;
+}
+
+.copyright {
+    margin-left: 20px;
+    color: #6D6763;
+    text-align: left;
+}
+
+/* responsive for phone 320-411 px*/
+@media only screen and (min-width: 320px) and (max-width: 420px) and (orientation: portrait) {
+    html, body {
+        font-size: 12px;
+        max-width: 800px;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+/* responsive for pad 420-900 px*/
+@media only screen and (min-width: 420px) and (max-width: 900px) and (orientation: portrait) {
+    html, body {
+        font-size: 16px;
+        max-width: 1000px;
+    }
+}
+
+/* responsive for laptop from 960 px*/
+@media only screen and (min-width: 960px) and (orientation: landscape) {
+    html, body {
+        font-size: 20px;
+        max-width: 1920px;
+    }
+}
